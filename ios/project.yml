@@ -1,0 +1,42 @@
+name: TwinDesk
+options:
+  bundleIdPrefix: com.twindesk
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+targets:
+  TwinDesk:
+    type: application
+    platform: iOS
+    sources:
+      - path: TwinDesk
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.twindesk.ios
+        MARKETING_VERSION: "2.4.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: TwinDesk
+        INFOPLIST_KEY_NSLocalNetworkUsageDescription: "TwinDesk finds your computers on the local network and connects to them."
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UIRequiresFullScreen: "NO"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: "YES"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Automatic
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: "NO"
+    info:
+      path: TwinDesk/Info.plist
+      properties:
+        CFBundleDisplayName: TwinDesk
+        NSLocalNetworkUsageDescription: TwinDesk finds your computers on the local network and connects to them.
+        UILaunchScreen: {}
+        UIRequiresFullScreen: false
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight

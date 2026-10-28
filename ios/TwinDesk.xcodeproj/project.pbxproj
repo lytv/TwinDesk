@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2DDC3AF0006FD55D995607 /* WebHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F66472D74BD75118AA6C9 /* WebHost.swift */; };
+		0B5555E81E584AEE46992381 /* remote.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F5A3E1B865D95E8518DB875 /* remote.html */; };
+		21DAFC63CC390CF0F3C4B3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BEFE05C726C12AE7819FCD /* Assets.xcassets */; };
+		2290A23B30F90B8216C12CA7 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20892707DE30386F701BAD0 /* Views.swift */; };
+		33779AF2143D298E855ABF59 /* audio.js in Resources */ = {isa = PBXBuildFile; fileRef = FE36C57B952DCD9441458E5F /* audio.js */; };
+		3A1F837576BAAF3DA927945C /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61631C8C35CFC5E7986454 /* Link.swift */; };
+		44349D734BE46CE8FF3DBF24 /* viewer.css in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E265F7EEAFBD6EA88AE1F /* viewer.css */; };
+		5A2BFFABAF97945ACB619E8C /* viewer.html in Resources */ = {isa = PBXBuildFile; fileRef = AFBAE16351DF07BBE6F44D29 /* viewer.html */; };
+		7470FE4F98CAEBE0B6E74561 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F58DACD6A5B4E46C20BEFD /* Features.swift */; };
+		762166CFA6FA135AE86F76A7 /* Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBA888D8329BC383E59B25 /* Discovery.swift */; };
+		80B6CAAB45E9C56202C79CF8 /* audio.html in Resources */ = {isa = PBXBuildFile; fileRef = 20C3255DB7BB98DC1B4AB6BA /* audio.html */; };
+		AD08C9A999B214FD40486767 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E60379076B2B2CE55DC18 /* Store.swift */; };
+		AEFC8280044F25474BD23C0E /* Proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D7590BB0D9D17C7A6CD39 /* Proto.swift */; };
+		B5EDC7434521F017B6FC9319 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2844AB873E1FCB7C7CF1030 /* Clip.swift */; };
+		B62F9AAC6096ADE352FE2CD5 /* remote.css in Resources */ = {isa = PBXBuildFile; fileRef = 78BFB0F49D3C2D7E99E22463 /* remote.css */; };
+		C61F590F6828B73BD4872AF4 /* viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = DC4B501C8076FAD21A2F9622 /* viewer.js */; };
+		D847D45C380404C0056E5B33 /* remote.js in Resources */ = {isa = PBXBuildFile; fileRef = 83B34736F21EC43240596641 /* remote.js */; };
+		DAAC26EA5ECFCCDF75E1ED49 /* TwinDeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE01CE5853C3B92C8AA0642F /* TwinDeskApp.swift */; };
+		DF0A212B9AFE4DDD6932A5D9 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BCE2F267FE5AA60941AD6 /* Core.swift */; };
+		ECBAD1BEA2445B19D86969CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF55251A8A5BA67DA0490A7 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00BF3B61EC43BFE2B7931E12 /* TwinDesk.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TwinDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5A3E1B865D95E8518DB875 /* remote.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = remote.html; sourceTree = "<group>"; };
+		20C3255DB7BB98DC1B4AB6BA /* audio.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = audio.html; sourceTree = "<group>"; };
+		2A4D7590BB0D9D17C7A6CD39 /* Proto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proto.swift; sourceTree = "<group>"; };
+		2F61631C8C35CFC5E7986454 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		3A6E265F7EEAFBD6EA88AE1F /* viewer.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = viewer.css; sourceTree = "<group>"; };
+		4D0E60379076B2B2CE55DC18 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		5C1D8597C3B39B362BC6EF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5FEBA888D8329BC383E59B25 /* Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discovery.swift; sourceTree = "<group>"; };
+		78BFB0F49D3C2D7E99E22463 /* remote.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = remote.css; sourceTree = "<group>"; };
+		83B34736F21EC43240596641 /* remote.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = remote.js; sourceTree = "<group>"; };
+		8CF55251A8A5BA67DA0490A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		901F66472D74BD75118AA6C9 /* WebHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebHost.swift; sourceTree = "<group>"; };
+		A2844AB873E1FCB7C7CF1030 /* Clip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
+		A9F58DACD6A5B4E46C20BEFD /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		AFBAE16351DF07BBE6F44D29 /* viewer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = viewer.html; sourceTree = "<group>"; };
+		B72BCE2F267FE5AA60941AD6 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		D20892707DE30386F701BAD0 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		DC4B501C8076FAD21A2F9622 /* viewer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = viewer.js; sourceTree = "<group>"; };
+		DE01CE5853C3B92C8AA0642F /* TwinDeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinDeskApp.swift; sourceTree = "<group>"; };
+		E7BEFE05C726C12AE7819FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE36C57B952DCD9441458E5F /* audio.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = audio.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		27BAF2AAD8B88D92AD3B61B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00BF3B61EC43BFE2B7931E12 /* TwinDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775FAA32BD0A22686957FAD4 = {
+			isa = PBXGroup;
+			children = (
+				A8D8708FE4FE7F53B9FC0A6E /* TwinDesk */,
+				27BAF2AAD8B88D92AD3B61B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D8708FE4FE7F53B9FC0A6E /* TwinDesk */ = {
+			isa = PBXGroup;
+			children = (
+				E7BEFE05C726C12AE7819FCD /* Assets.xcassets */,
+				A2844AB873E1FCB7C7CF1030 /* Clip.swift */,
+				B72BCE2F267FE5AA60941AD6 /* Core.swift */,
+				5FEBA888D8329BC383E59B25 /* Discovery.swift */,
+				A9F58DACD6A5B4E46C20BEFD /* Features.swift */,
+				5C1D8597C3B39B362BC6EF77 /* Info.plist */,
+				2F61631C8C35CFC5E7986454 /* Link.swift */,
+				2A4D7590BB0D9D17C7A6CD39 /* Proto.swift */,
+				4D0E60379076B2B2CE55DC18 /* Store.swift */,
+				DE01CE5853C3B92C8AA0642F /* TwinDeskApp.swift */,
+				901F66472D74BD75118AA6C9 /* WebHost.swift */,
+				DB048B06C9920DF5D2CEB574 /* UI */,
+				E08EB6ED8A51BB749A801C55 /* web */,
+			);
+			path = TwinDesk;
+			sourceTree = "<group>";
+		};
+		DB048B06C9920DF5D2CEB574 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8CF55251A8A5BA67DA0490A7 /* ContentView.swift */,
+				D20892707DE30386F701BAD0 /* Views.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E08EB6ED8A51BB749A801C55 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				20C3255DB7BB98DC1B4AB6BA /* audio.html */,
+				FE36C57B952DCD9441458E5F /* audio.js */,
+				78BFB0F49D3C2D7E99E22463 /* remote.css */,
+				0F5A3E1B865D95E8518DB875 /* remote.html */,
+				83B34736F21EC43240596641 /* remote.js */,
+				3A6E265F7EEAFBD6EA88AE1F /* viewer.css */,
+				AFBAE16351DF07BBE6F44D29 /* viewer.html */,
+				DC4B501C8076FAD21A2F9622 /* viewer.js */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA85603263188ED573C96C5 /* TwinDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014060662E59419E816202EF /* Build configuration list for PBXNativeTarget "TwinDesk" */;
+			buildPhases = (
+				BC16B57970634F702F819152 /* Sources */,
+				0C8D9BA96F733CCB72BBA76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwinDesk;
+			packageProductDependencies = (
+			);
+			productName = TwinDesk;
+			productReference = 00BF3B61EC43BFE2B7931E12 /* TwinDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43FDC0703DB4C845C43251C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6CA85603263188ED573C96C5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0EB19193C726CE3BCA3BCBDA /* Build configuration list for PBXProject "TwinDesk" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 775FAA32BD0A22686957FAD4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27BAF2AAD8B88D92AD3B61B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA85603263188ED573C96C5 /* TwinDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8D9BA96F733CCB72BBA76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DAFC63CC390CF0F3C4B3BC /* Assets.xcassets in Resources */,
+				80B6CAAB45E9C56202C79CF8 /* audio.html in Resources */,
+				33779AF2143D298E855ABF59 /* audio.js in Resources */,
+				B62F9AAC6096ADE352FE2CD5 /* remote.css in Resources */,
+				0B5555E81E584AEE46992381 /* remote.html in Resources */,
+				D847D45C380404C0056E5B33 /* remote.js in Resources */,
+				44349D734BE46CE8FF3DBF24 /* viewer.css in Resources */,
+				5A2BFFABAF97945ACB619E8C /* viewer.html in Resources */,
+				C61F590F6828B73BD4872AF4 /* viewer.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC16B57970634F702F819152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EDC7434521F017B6FC9319 /* Clip.swift in Sources */,
+				ECBAD1BEA2445B19D86969CF /* ContentView.swift in Sources */,
+				DF0A212B9AFE4DDD6932A5D9 /* Core.swift in Sources */,
+				762166CFA6FA135AE86F76A7 /* Discovery.swift in Sources */,
+				7470FE4F98CAEBE0B6E74561 /* Features.swift in Sources */,
+				3A1F837576BAAF3DA927945C /* Link.swift in Sources */,
+				AEFC8280044F25474BD23C0E /* Proto.swift in Sources */,
+				AD08C9A999B214FD40486767 /* Store.swift in Sources */,
+				DAAC26EA5ECFCCDF75E1ED49 /* TwinDeskApp.swift in Sources */,
+				2290A23B30F90B8216C12CA7 /* Views.swift in Sources */,
+				0B2DDC3AF0006FD55D995607 /* WebHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31C4E0EA8463EBA6423622A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinDesk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TwinDesk;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "TwinDesk finds your computers on the local network and connects to them.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twindesk.ios;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6179780C298736F2B52A5715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		971A59E1FF92BA417D90B9E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinDesk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TwinDesk;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "TwinDesk finds your computers on the local network and connects to them.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twindesk.ios;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7AFC0116936B2A98F5EB02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014060662E59419E816202EF /* Build configuration list for PBXNativeTarget "TwinDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C4E0EA8463EBA6423622A4 /* Debug */,
+				971A59E1FF92BA417D90B9E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0EB19193C726CE3BCA3BCBDA /* Build configuration list for PBXProject "TwinDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6179780C298736F2B52A5715 /* Debug */,
+				E7AFC0116936B2A98F5EB02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43FDC0703DB4C845C43251C2 /* Project object */;
+}
